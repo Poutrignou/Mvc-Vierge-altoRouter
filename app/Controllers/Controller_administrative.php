@@ -21,11 +21,11 @@ class Controller_administrative extends Controller {
         }   
     }
     
-    public function action_profile() {
-        if(!isset($_SESSION['Id_user'])) {
-            header("Location: " . $this->router->genrerate('logginConnexion'));
-        } else {
-            $this->render("profil");
-        }
-    }
+    // public function action_profile() {
+    //     if(!isset($_SESSION['Id_user'])) {
+    //         header("Location: " . $this->router->genrerate('logginConnexion'));
+    //     } else {
+    //         $this->render("profil");
+    //     }
+    // }
 }

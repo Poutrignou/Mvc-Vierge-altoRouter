@@ -26,6 +26,5 @@ $basePath = "http://localhost/no_wayste_mvc/public/"
     <?php require('../app/Utils/header.php'); ?>
     <?= $content ?>
     <?php require('../app/Utils/footer.php'); ?>
-    <p>Prout</p>
 </body>
 </html>

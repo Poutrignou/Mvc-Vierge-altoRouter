@@ -36,11 +36,6 @@ class Controller_loggin extends Controller {
         }
     }
 
-    /**
-	 * Connection form display
-	 */
-
-
 
     /**
       * Disconnexion

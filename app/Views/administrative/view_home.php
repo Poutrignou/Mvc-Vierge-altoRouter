@@ -5,4 +5,5 @@ $description = "Controllez les dates de peremptions des aliments dans votre gard
 ?>
 <!-- Fonction de bufferisation de sortie -->
 <?php ob_start(); ?>
+
 <?php $content = ob_get_clean(); ?>

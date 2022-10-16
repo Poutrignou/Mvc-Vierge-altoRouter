@@ -28,5 +28,4 @@ public function action_profile() {
 
 Pour generer un params avec un integer on utilise cette syntaxe.
 
-
     header("Location: " . $this->router->generate('logginInscription', ['notification' => 4]));

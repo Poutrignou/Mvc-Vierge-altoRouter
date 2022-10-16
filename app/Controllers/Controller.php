@@ -14,7 +14,6 @@ abstract class Controller {
         //On recupére le nom du controller (ex app) auquel on ajoute le '/' pour s'en servir comme nom de dossier.
         //par exemple le controller_loggin va permettre de créer le loggin/ dont on va se servir pour créer des routes (exemple dans le render)
             $this->subFolderView = $controllerName . "/";
-            // $routerAlto all the routes defined,
             $this->router = $routerAlto;
             $action = "action_" . $actionName;
             // $params est envoyé par $match(params, target , name)
